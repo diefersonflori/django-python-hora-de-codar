@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def helloworld(request):
     return HttpResponse('Hello World!')
+
+def tasklist(request):
+    return render(request,'tasks/list.html')
