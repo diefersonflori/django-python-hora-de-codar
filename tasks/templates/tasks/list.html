@@ -6,9 +6,26 @@
 {%block conten1 %}
 <h1>Lista de tarefasdentro</h1>
 <div class="col-2 add-div">
-    <i class="fas fa-anchor"></i> adicionar tarefa
-
+    <i class="fas fa-anchor" ></i> adicionar tarefa
 </div>
+
+<div class="col-9 search-div">
+    <input type="text" id="search" name="search" placeholder="buscar tarefa">
+    <i class="fas fa-search"></i>
+
+    <!--por fim... a nossa lista de tarefas-->
+    <ul class="task-list">
+
+        <span>Titulo da tarefa</span>
+
+        <!--icone para deletar-->
+        <span><i class="fas fa-trash"></i></span>
+        <span><i class="fas fa-edit"></i></span>
+
+    </ul>
+
+</div> <!--classe uma div de 9 colunas com uma classe searchdiv que vamos usar no css 7--->
+
 
 {%endblock%}
 {%endblock%}

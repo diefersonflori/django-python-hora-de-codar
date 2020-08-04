@@ -27,6 +27,25 @@ letter-spacing: 1px;
 
 }
 
+/*lista de tarefas*/
+
+.list-div{
+        padding: 0;
+}
+
+.task-list{
+padding-left: 0;
+}
+.taks-item{
+list-style: 0;
+font-size: 20px;
+height: 50px;
+padding-top: 10px;
+border: 1px dashed;
+}
+
+
+
 /*rodapé*/
 footer{
 
@@ -40,4 +59,8 @@ footer p {
     text-align: center;
     top: 50%;
     position: relative;
+}
+
+search{
+    color: red;
 }
