@@ -11,6 +11,7 @@ def tasKView(request, id):
     task=get_object_or_404(Task,pk=id)
     return render(request,'tasks/task.html',{'task':task})
 
+
 def helloworld(request):
     return HttpResponse('Hello World!')
 
