@@ -1,5 +1,5 @@
 h1{
-    color: black;
+    color: orange;
 }
 
 .container-fluid{
@@ -26,6 +26,45 @@ color: #333;
 letter-spacing: 1px;
 
 }
+/*botao de adicionar */
+
+.add-div {
+    background-color: #3476ea;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    padding: 8px; /*altura botao*/
+    border-radius: 50px; /*pra afinar o chanfro*/
+    margin-right: 25px;        /*pra afinar o chanfro*/
+    
+    }
+.list-div
+{
+background-color: #0bf345;
+
+}
+    .fas.fa-anchor{   /* ajeitar o icone naval*/
+        color: #FFF;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .fas.fa-search{   /* ajeitar o icone de busca*/
+        position: absolute;
+        color: blue;
+        top: 12px;
+        right: 26px;
+    }
+
+    .search-div{
+        padding: 0px;
+        margin-top: 15px;
+        margin-bottom: 14px;
+        display: inline-block; 
+        background-color: rgb(138, 11, 121);
+        
+    }
+
 
 /*lista de tarefas*/
 
@@ -35,13 +74,22 @@ letter-spacing: 1px;
 
 .task-list{
 padding-left: 0; 
+background-color: #3476ea;
+
+/*display: inline-block;*/
 }
+.task-list1{
+    padding-left: 0;
+    background-color: aqua; 
+    
+    }
 .taks-item{
 list-style: 0;
 font-size: 20px;
 height: 50px;
 padding-top: 10px;
 border: 1px dashed #ccc;
+border-bottom: 1px dashed #ccc;
 
 }
 
@@ -77,4 +125,5 @@ footer p {
 
 search{
     color: red;
+    
 }
