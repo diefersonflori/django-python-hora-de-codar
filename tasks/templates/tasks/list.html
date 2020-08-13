@@ -18,22 +18,17 @@
 
         <!--por fim... a nossa lista de tarefas-->
         <ul class="task-list1">
+            {%for task in tasks %}
+            <li class="task-item">
 
-            <span>Titulo da tarefa</span>
+            <span><a href="/task/{{task.id}}">{{task.title}}</a></span>
             <!--icone para deletar-->
             <span><i class="fas fa-trash"></i></span>
             <span><i class="fas fa-edit"></i></span>
-
+        </li>
+            {%endfor%}
         </ul>
-        <ul class="task-list">
-
-            <span>Titulo da tarefa</span>
-            <!--icone para deletar-->
-            <span><i class="fas fa-trash"></i></span>
-            <span><i class="fas fa-edit"></i></span>
-
-        </ul>
-
+    
 
 
 
